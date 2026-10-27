@@ -16,6 +16,7 @@ pub mod status;
 pub mod structured;
 pub mod synthetic_structure;
 pub mod text;
+mod thai_marks;
 pub mod warnings;
 pub mod xmp;
 

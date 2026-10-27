@@ -3462,6 +3462,11 @@ impl<'doc> TextExtractor<'doc> {
         // Flush any remaining Tj buffer at end of content stream
         self.flush_tj_span_buffer()?;
 
+        // Bind Thai vowel/tone runs while their stream order is still intact.
+        // Sorting first would strand raised marks above the body and reverse
+        // left-shifted glyphs before their consonant.
+        super::thai_marks::attach_positioned_marks(&mut self.spans, &self.fonts);
+
         // Detect RTL glyph DRAW DIRECTION on the raw stream order, BEFORE the
         // reading-order sort destroys it (ISO 32000-1 §14.8.2.3.3 method 1).
         self.detect_rtl_draw_direction();
