@@ -44,7 +44,15 @@ jobs:
         with:
           rustflags: ''
       - run: python -m pip install maturin pytest fonttools
-      - run: maturin build --release --out dist
+      - name: Build portable Linux wheel
+        if: runner.os == 'Linux'
+        uses: PyO3/maturin-action@e83996d129638aa358a18fbd1dfb82f0b0fb5d3b
+        with:
+          target: x86_64
+          manylinux: manylinux_2_28
+          args: --release --out dist
+      - if: runner.os != 'Linux'
+        run: maturin build --release --out dist
       - shell: bash
         run: python -m pip install dist/*.whl
       - run: python -m pytest tests/test_thai_package.py -q
