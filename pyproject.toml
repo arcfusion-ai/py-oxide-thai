@@ -108,8 +108,7 @@ include = [
     "python/py_oxide_thai/*.pyi", "LICENSE-APACHE", "LICENSE-MIT", "NOTICE",
     { path = "README.upstream.md", format = "sdist" },
     { path = "docs/evaluation/*", format = "sdist" },
-    { path = "tools/evaluate_thai.py", format = "sdist" },
-    { path = "tools/thai_fixtures.py", format = "sdist" },
+    { path = "tools/*thai*.py", format = "sdist" },
 ]
 
 [tool.pytest.ini_options]
