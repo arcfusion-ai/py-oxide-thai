@@ -26,7 +26,7 @@ use crate::writer::{BlendMode as RustBlendMode, LineCap as RustLineCap, LineJoin
 /// Python wrapper for PdfDocument.
 ///
 /// Provides PDF parsing, text extraction, and format conversion capabilities.
-#[pyclass(module = "pdf_oxide.pdf_oxide", name = "PdfDocument")]
+#[pyclass(module = "py_oxide_thai._native", name = "PdfDocument")]
 pub struct PyPdfDocument {
     pub(crate) inner: RustPdfDocument,
     pub(crate) path: Option<String>,
@@ -3042,7 +3042,7 @@ impl PyPdfDocument {
 ///
 /// New code should use the attribute form (`doc.page_count`); the
 /// method-call form is deprecated and will be removed in v0.4.0.
-#[pyclass(module = "pdf_oxide.pdf_oxide", name = "_PageCount")]
+#[pyclass(module = "py_oxide_thai._native", name = "_PageCount")]
 pub struct PyPageCount {
     value: usize,
 }
@@ -3126,7 +3126,7 @@ impl PyPageCount {
 }
 
 /// Iterator over pages of a PdfDocument.
-#[pyclass(module = "pdf_oxide.pdf_oxide", name = "PdfDocumentIter")]
+#[pyclass(module = "py_oxide_thai._native", name = "PdfDocumentIter")]
 pub struct PyDocPageIter {
     doc: Py<PyPdfDocument>,
     index: usize,
@@ -3153,7 +3153,7 @@ impl PyDocPageIter {
 }
 
 /// A single page of a PdfDocument, providing lazy access to all page-level operations.
-#[pyclass(module = "pdf_oxide.pdf_oxide", name = "Page", subclass)]
+#[pyclass(module = "py_oxide_thai._native", name = "Page", subclass)]
 pub struct PyDocPage {
     doc: Py<PyPdfDocument>,
     page_index: usize,
@@ -3401,7 +3401,7 @@ impl PyDocPage {
 }
 
 /// A form field extracted from a PDF AcroForm.
-#[pyclass(module = "pdf_oxide.pdf_oxide", name = "FormField")]
+#[pyclass(module = "py_oxide_thai._native", name = "FormField")]
 pub struct PyFormField {
     inner: RustFormField,
 }
@@ -3523,7 +3523,7 @@ fn python_to_form_field_value(
 }
 
 /// Python wrapper for PDF creation.
-#[pyclass(module = "pdf_oxide.pdf_oxide", name = "Pdf", skip_from_py_object)]
+#[pyclass(module = "py_oxide_thai._native", name = "Pdf", skip_from_py_object)]
 pub struct PyPdf {
     bytes: Vec<u8>,
 }
@@ -3723,7 +3723,7 @@ impl PyPdf {
 }
 
 #[pyclass(
-    module = "pdf_oxide.pdf_oxide",
+    module = "py_oxide_thai._native",
     name = "OfficeConverter",
     skip_from_py_object
 )]
@@ -3789,7 +3789,7 @@ impl PyOfficeConverter {
 use crate::editor::{ElementId, PdfElement, PdfPage as RustPdfPage, PdfText as RustPdfText};
 
 #[pyclass(
-    module = "pdf_oxide.pdf_oxide",
+    module = "py_oxide_thai._native",
     name = "PdfPageRegion",
     skip_from_py_object
 )]
@@ -3847,7 +3847,7 @@ impl PyPdfPageRegion {
     }
 }
 
-#[pyclass(module = "pdf_oxide.pdf_oxide", name = "PdfPage")]
+#[pyclass(module = "py_oxide_thai._native", name = "PdfPage")]
 pub struct PyPdfPage {
     inner: RustPdfPage,
 }
@@ -3965,7 +3965,7 @@ impl PyPdfPage {
 }
 
 #[pyclass(
-    module = "pdf_oxide.pdf_oxide",
+    module = "py_oxide_thai._native",
     name = "PdfTextId",
     skip_from_py_object
 )]
@@ -3980,7 +3980,11 @@ impl PyPdfTextId {
     }
 }
 
-#[pyclass(module = "pdf_oxide.pdf_oxide", name = "PdfText", skip_from_py_object)]
+#[pyclass(
+    module = "py_oxide_thai._native",
+    name = "PdfText",
+    skip_from_py_object
+)]
 #[derive(Clone)]
 pub struct PyPdfText {
     inner: RustPdfText,
@@ -4036,7 +4040,11 @@ impl PyPdfText {
     }
 }
 
-#[pyclass(module = "pdf_oxide.pdf_oxide", name = "PdfImage", skip_from_py_object)]
+#[pyclass(
+    module = "py_oxide_thai._native",
+    name = "PdfImage",
+    skip_from_py_object
+)]
 #[derive(Clone)]
 pub struct PyPdfImage {
     inner: crate::editor::PdfImage,
@@ -4067,7 +4075,7 @@ impl PyPdfImage {
 }
 
 #[pyclass(
-    module = "pdf_oxide.pdf_oxide",
+    module = "py_oxide_thai._native",
     name = "PdfAnnotation",
     skip_from_py_object
 )]
@@ -4108,7 +4116,7 @@ impl PyAnnotationWrapper {
 }
 
 #[pyclass(
-    module = "pdf_oxide.pdf_oxide",
+    module = "py_oxide_thai._native",
     name = "PdfElement",
     skip_from_py_object
 )]
@@ -4157,7 +4165,11 @@ impl PyPdfElement {
     }
 }
 
-#[pyclass(module = "pdf_oxide.pdf_oxide", name = "TextChar", skip_from_py_object)]
+#[pyclass(
+    module = "py_oxide_thai._native",
+    name = "TextChar",
+    skip_from_py_object
+)]
 #[derive(Clone)]
 pub struct PyTextChar {
     inner: RustTextChar,
@@ -4223,7 +4235,11 @@ impl PyTextChar {
     }
 }
 
-#[pyclass(module = "pdf_oxide.pdf_oxide", name = "TextSpan", skip_from_py_object)]
+#[pyclass(
+    module = "py_oxide_thai._native",
+    name = "TextSpan",
+    skip_from_py_object
+)]
 #[derive(Clone)]
 pub struct PyTextSpan {
     inner: crate::layout::TextSpan,
@@ -4298,7 +4314,11 @@ impl PyTextSpan {
     }
 }
 
-#[pyclass(module = "pdf_oxide.pdf_oxide", name = "TextWord", skip_from_py_object)]
+#[pyclass(
+    module = "py_oxide_thai._native",
+    name = "TextWord",
+    skip_from_py_object
+)]
 #[derive(Clone)]
 pub struct PyWord {
     inner: crate::layout::Word,
@@ -4356,7 +4376,11 @@ impl PyWord {
     }
 }
 
-#[pyclass(module = "pdf_oxide.pdf_oxide", name = "TextLine", skip_from_py_object)]
+#[pyclass(
+    module = "py_oxide_thai._native",
+    name = "TextLine",
+    skip_from_py_object
+)]
 #[derive(Clone)]
 pub struct PyTextLine {
     inner: crate::layout::TextLine,
@@ -4525,12 +4549,12 @@ fn outline_items_to_py(
 }
 
 #[cfg(feature = "ocr")]
-#[pyclass(module = "pdf_oxide.pdf_oxide", name = "OcrEngine", unsendable)]
+#[pyclass(module = "py_oxide_thai._native", name = "OcrEngine", unsendable)]
 pub struct PyOcrEngine {
     inner: crate::ocr::OcrEngine,
 }
 #[cfg(not(feature = "ocr"))]
-#[pyclass(module = "pdf_oxide.pdf_oxide", name = "OcrEngine", unsendable)]
+#[pyclass(module = "py_oxide_thai._native", name = "OcrEngine", unsendable)]
 pub struct PyOcrEngine {}
 #[cfg(not(feature = "ocr"))]
 #[pymethods]
@@ -4564,7 +4588,7 @@ impl PyOcrEngine {
 
 #[cfg(feature = "ocr")]
 #[pyclass(
-    module = "pdf_oxide.pdf_oxide",
+    module = "py_oxide_thai._native",
     name = "OcrConfig",
     skip_from_py_object
 )]
@@ -4574,7 +4598,7 @@ pub struct PyOcrConfig {
 }
 #[cfg(not(feature = "ocr"))]
 #[pyclass(
-    module = "pdf_oxide.pdf_oxide",
+    module = "py_oxide_thai._native",
     name = "OcrConfig",
     skip_from_py_object
 )]
@@ -4613,7 +4637,7 @@ impl PyOcrConfig {
     }
 }
 
-#[pyclass(module = "pdf_oxide.pdf_oxide", name = "Color", skip_from_py_object)]
+#[pyclass(module = "py_oxide_thai._native", name = "Color", skip_from_py_object)]
 #[derive(Clone)]
 pub struct PyColor {
     inner: RustColor,
@@ -4691,7 +4715,7 @@ impl PyColor {
 
 #[allow(dead_code)]
 #[pyclass(
-    module = "pdf_oxide.pdf_oxide",
+    module = "py_oxide_thai._native",
     name = "BlendMode",
     skip_from_py_object
 )]
@@ -4789,7 +4813,7 @@ impl PyBlendMode {
 
 #[allow(dead_code)]
 #[pyclass(
-    module = "pdf_oxide.pdf_oxide",
+    module = "py_oxide_thai._native",
     name = "ExtGState",
     skip_from_py_object
 )]
@@ -4849,7 +4873,7 @@ impl PyExtGState {
 }
 
 #[pyclass(
-    module = "pdf_oxide.pdf_oxide",
+    module = "py_oxide_thai._native",
     name = "LinearGradient",
     skip_from_py_object
 )]
@@ -4913,7 +4937,7 @@ impl PyLinearGradient {
 }
 
 #[pyclass(
-    module = "pdf_oxide.pdf_oxide",
+    module = "py_oxide_thai._native",
     name = "RadialGradient",
     skip_from_py_object
 )]
@@ -4974,7 +4998,11 @@ impl PyRadialGradient {
     }
 }
 
-#[pyclass(module = "pdf_oxide.pdf_oxide", name = "LineCap", skip_from_py_object)]
+#[pyclass(
+    module = "py_oxide_thai._native",
+    name = "LineCap",
+    skip_from_py_object
+)]
 #[derive(Clone)]
 pub struct PyLineCap {
     pub inner: RustLineCap,
@@ -5021,7 +5049,11 @@ impl PyLineCap {
     }
 }
 
-#[pyclass(module = "pdf_oxide.pdf_oxide", name = "LineJoin", skip_from_py_object)]
+#[pyclass(
+    module = "py_oxide_thai._native",
+    name = "LineJoin",
+    skip_from_py_object
+)]
 #[derive(Clone)]
 pub struct PyLineJoin {
     pub inner: RustLineJoin,
@@ -5069,7 +5101,7 @@ impl PyLineJoin {
 }
 
 #[pyclass(
-    module = "pdf_oxide.pdf_oxide",
+    module = "py_oxide_thai._native",
     name = "PatternPresets",
     skip_from_py_object
 )]
@@ -5104,7 +5136,7 @@ impl PyPatternPresets {
 }
 
 #[pyclass(
-    module = "pdf_oxide.pdf_oxide",
+    module = "py_oxide_thai._native",
     name = "ArtifactStyle",
     skip_from_py_object
 )]
@@ -5134,7 +5166,7 @@ impl PyArtifactStyle {
     }
 }
 
-#[pyclass(module = "pdf_oxide.pdf_oxide", name = "Artifact", from_py_object)]
+#[pyclass(module = "py_oxide_thai._native", name = "Artifact", from_py_object)]
 #[derive(Clone)]
 pub struct PyArtifact {
     pub inner: crate::writer::Artifact,
@@ -5159,7 +5191,7 @@ impl PyArtifact {
     }
 }
 
-#[pyclass(module = "pdf_oxide.pdf_oxide", name = "Header", from_py_object)]
+#[pyclass(module = "py_oxide_thai._native", name = "Header", from_py_object)]
 #[derive(Clone)]
 pub struct PyHeader {
     pub inner: PyArtifact,
@@ -5184,7 +5216,7 @@ impl PyHeader {
     }
 }
 
-#[pyclass(module = "pdf_oxide.pdf_oxide", name = "Footer", from_py_object)]
+#[pyclass(module = "py_oxide_thai._native", name = "Footer", from_py_object)]
 #[derive(Clone)]
 pub struct PyFooter {
     pub inner: PyArtifact,
@@ -5505,7 +5537,7 @@ fn extract_align(py: Python<'_>, obj: &Bound<'_, PyAny>) -> PyResult<i32> {
 /// be used interchangeably with the string form ("left"/"center"/"right")
 /// anywhere the Python bindings accept alignment.
 #[pyclass(
-    module = "pdf_oxide.pdf_oxide",
+    module = "py_oxide_thai._native",
     name = "Align",
     eq,
     eq_int,
@@ -5543,7 +5575,7 @@ impl PyAlign {
 /// Python-side column descriptor used by `Table`
 /// `FluentPageBuilder.streaming_table`. Constructor matches the research
 /// C shape: `Column(header, width=100.0, align=Align.LEFT)`.
-#[pyclass(module = "pdf_oxide.pdf_oxide", name = "Column", skip_from_py_object)]
+#[pyclass(module = "py_oxide_thai._native", name = "Column", skip_from_py_object)]
 #[derive(Clone)]
 pub struct PyColumn {
     pub header: String,
@@ -5589,7 +5621,7 @@ impl PyColumn {
 /// `FluentPageBuilder.table`. Carries columns (with widths + alignments
 /// + headers), rows of string cells, and a `has_header` flag that
 /// promotes the first row to the header style.
-#[pyclass(module = "pdf_oxide.pdf_oxide", name = "Table", skip_from_py_object)]
+#[pyclass(module = "py_oxide_thai._native", name = "Table", skip_from_py_object)]
 #[derive(Clone)]
 pub struct PyTable {
     pub columns: Vec<PyColumn>,
@@ -5644,7 +5676,7 @@ impl PyTable {
 /// `DocumentBuilder.register_embedded_font`, the underlying Rust
 /// `EmbeddedFont` is moved into the builder and this handle becomes
 /// empty. Registering the same handle twice raises `RuntimeError`.
-#[pyclass(module = "pdf_oxide.pdf_oxide", name = "EmbeddedFont")]
+#[pyclass(module = "py_oxide_thai._native", name = "EmbeddedFont")]
 pub struct PyEmbeddedFont {
     pub(crate) inner: Option<crate::writer::EmbeddedFont>,
 }
@@ -5709,7 +5741,7 @@ impl PyEmbeddedFont {
 /// `build()`, `save()`, `save_encrypted()`, `to_bytes_encrypted()`,
 /// `save_with_encryption()` **consume** the builder — subsequent calls
 /// on the same instance raise `RuntimeError`.
-#[pyclass(module = "pdf_oxide.pdf_oxide", name = "DocumentBuilder")]
+#[pyclass(module = "py_oxide_thai._native", name = "DocumentBuilder")]
 pub struct PyDocumentBuilder {
     pub(crate) inner: Option<crate::writer::DocumentBuilder>,
 }
@@ -5922,7 +5954,7 @@ impl PyDocumentBuilder {
 /// reference back to its parent `DocumentBuilder` and is single-use:
 /// once `done()` is called, subsequent method calls raise
 /// `RuntimeError`.
-#[pyclass(module = "pdf_oxide.pdf_oxide", name = "FluentPageBuilder")]
+#[pyclass(module = "py_oxide_thai._native", name = "FluentPageBuilder")]
 pub struct PyFluentPageBuilder {
     parent: Py<PyDocumentBuilder>,
     page_size: Option<crate::writer::PageSize>,
@@ -7024,7 +7056,7 @@ impl PyFluentPageBuilder {
 /// at `done()` time. Per the buffered architecture note on
 /// `PyFluentPageBuilder`, we can't hold a live Rust `StreamingTable`
 /// across GIL boundaries, so we buffer Python-side and replay.
-#[pyclass(module = "pdf_oxide.pdf_oxide", name = "StreamingTable")]
+#[pyclass(module = "py_oxide_thai._native", name = "StreamingTable")]
 pub struct PyStreamingTable {
     parent: Py<PyFluentPageBuilder>,
     columns: Vec<PyColumn>,
@@ -7163,7 +7195,7 @@ impl PyStreamingTable {
 // `from_html_css_with_fonts`.
 
 #[pyclass(
-    module = "pdf_oxide.pdf_oxide",
+    module = "py_oxide_thai._native",
     name = "PageTemplate",
     skip_from_py_object
 )]
@@ -7381,7 +7413,7 @@ fn get_log_level() -> &'static str {
 }
 
 /// Computed adaptive layout parameters for a PDF page.
-#[pyclass(module = "pdf_oxide.pdf_oxide", name = "LayoutParams", frozen)]
+#[pyclass(module = "py_oxide_thai._native", name = "LayoutParams", frozen)]
 pub struct PyLayoutParams {
     pub word_gap_threshold: f32,
     pub line_gap_threshold: f32,
@@ -7433,7 +7465,7 @@ impl PyLayoutParams {
 
 /// Pre-tuned extraction profile for different document types.
 #[pyclass(
-    module = "pdf_oxide.pdf_oxide",
+    module = "py_oxide_thai._native",
     name = "ExtractionProfile",
     frozen,
     from_py_object
@@ -7542,7 +7574,7 @@ impl PyExtractionProfile {
 /// Only available when pdf_oxide was built with the `tsa-client`
 /// Rust-core feature — otherwise every call raises
 /// `NotImplementedError`.
-#[pyclass(module = "pdf_oxide.pdf_oxide", name = "TsaClient")]
+#[pyclass(module = "py_oxide_thai._native", name = "TsaClient")]
 pub struct PyTsaClient {
     #[cfg(feature = "tsa-client")]
     inner: crate::signatures::TsaClient,
@@ -7659,7 +7691,7 @@ impl PyTsaClient {
 /// Node `Certificate` class — `subject` / `issuer` / `serial` /
 /// `validity` / `is_valid` getters only; signing uses the PKCS#12
 /// loader once the Rust core's chain-of-trust work lands.
-#[pyclass(module = "pdf_oxide.pdf_oxide", name = "Certificate")]
+#[pyclass(module = "py_oxide_thai._native", name = "Certificate")]
 pub struct PyCertificate {
     creds: crate::signatures::SigningCredentials,
 }
@@ -7795,7 +7827,7 @@ impl PyCertificate {
 
 /// RFC 3161 timestamp parsed from a DER TimeStampToken or bare
 /// TSTInfo. Mirrors the C# `Timestamp` class.
-#[pyclass(module = "pdf_oxide.pdf_oxide", name = "Timestamp")]
+#[pyclass(module = "py_oxide_thai._native", name = "Timestamp")]
 pub struct PyTimestamp {
     inner: crate::signatures::Timestamp,
 }
@@ -7882,7 +7914,7 @@ impl PyTimestamp {
 /// check; `verify_detached()` adds the `messageDigest` content-hash
 /// check. Supported algorithms: RSA-PKCS#1 v1.5, RSA-PSS, ECDSA P-256/P-384.
 /// Unsupported-algorithm signers return `Unknown`.
-#[pyclass(module = "pdf_oxide.pdf_oxide", name = "Signature")]
+#[pyclass(module = "py_oxide_thai._native", name = "Signature")]
 pub struct PySignature {
     info: crate::signatures::SignatureInfo,
 }
@@ -8029,7 +8061,7 @@ impl PySignature {
 }
 
 #[pymodule(gil_used = false)]
-fn pdf_oxide(m: &Bound<'_, PyModule>) -> PyResult<()> {
+fn _native(m: &Bound<'_, PyModule>) -> PyResult<()> {
     // Bridge Rust `log` to Python `logging` (silent by default, user
     // configures with `logging.basicConfig(level=...)`). Fixes issue #280.
     // We hold the ResetHandle so `set_log_level` can flush pyo3_log's
@@ -8416,7 +8448,7 @@ pub fn py_sign_pdf_bytes<'py>(
 /// PAdES baseline level. Frozen integer mapping (B_B=0, B_T=1, B_LT=2,
 /// B_LTA=3) shared with the C ABI and every binding — never renumber.
 #[pyclass(
-    module = "pdf_oxide.pdf_oxide",
+    module = "py_oxide_thai._native",
     name = "PadesLevel",
     eq,
     eq_int,
@@ -8475,7 +8507,7 @@ impl PyPadesLevel {
 /// Offline validation material for B-LT (DER certificates / CRLs /
 /// OCSP responses). Mirrors Rust `signatures::RevocationMaterial`.
 #[pyclass(
-    module = "pdf_oxide.pdf_oxide",
+    module = "py_oxide_thai._native",
     name = "RevocationMaterial",
     skip_from_py_object
 )]
@@ -8506,7 +8538,7 @@ impl PyRevocationMaterial {
 /// A parsed Document Security Store (`/DSS`, ISO 32000-2 §12.8.4.3).
 /// `certs`/`crls`/`ocsps` are document-level DER blobs; `vri` is the
 /// list of per-signature VRI keys (uppercase-hex SHA-1 of `/Contents`).
-#[pyclass(module = "pdf_oxide.pdf_oxide", name = "Dss")]
+#[pyclass(module = "py_oxide_thai._native", name = "Dss")]
 pub struct PyDss {
     #[cfg(feature = "signatures")]
     dss: crate::signatures::DocumentSecurityStore,

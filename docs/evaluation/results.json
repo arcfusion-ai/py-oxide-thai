@@ -1,0 +1,1269 @@
+{
+  "platform": "macOS-26.5-arm64-arm-64bit-Mach-O",
+  "python": "3.13.4",
+  "corpus_documents": 125,
+  "corpus": [
+    {
+      "file": "control-00-auto_hybrid_text_image_en.pdf",
+      "sha256": "433159649a94b503bc60583ef0d2a2d542aa33d537ec8cb6f17551bc3c425351"
+    },
+    {
+      "file": "control-01-auto_image_text_ko.pdf",
+      "sha256": "b996ab5477c1e3c29ca0f90bdf664687161af2052c3d84f4eecac2b70c6760d4"
+    },
+    {
+      "file": "control-02-kampo.pdf",
+      "sha256": "7c2dcadaa18195e631e1eb3d6994f9714c79852168516524b61ee33b7b34d0b3"
+    },
+    {
+      "file": "control-03-auto_image_text_cht.pdf",
+      "sha256": "77c46b30404991c3e1b76452f119ece08097ec754df71ac95da83dc1e1793a8d"
+    },
+    {
+      "file": "control-04-outline.pdf",
+      "sha256": "83fbedde150345b878fd82006a2ce14985c3b3630dd0916433b338f9ff1ea1e1"
+    },
+    {
+      "file": "control-05-auto_image_text_zh.pdf",
+      "sha256": "3fbffadc3601b317fb1a7149718ffd98a1fe8f93865ad0b57948f54e0661985b"
+    },
+    {
+      "file": "control-06-simple.pdf",
+      "sha256": "0d509281e91d6d7cbfbcb4d16f5a205578e65765a11c59187b07b585d555b00d"
+    },
+    {
+      "file": "control-07-encrypted_needs_password.pdf",
+      "sha256": "574aca1ddcaec33a001aced7f7ac4fe5eb092c0079841ed736a071c6c496157e"
+    },
+    {
+      "file": "control-08-auto_image_text_te.pdf",
+      "sha256": "56673042c79c330fc68ef3a74578cadb1af73d4d0923621015a2ecb90314788f"
+    },
+    {
+      "file": "control-09-auto_image_text_ar.pdf",
+      "sha256": "9114a7aff602715802486a6ec8ebc08e1f3c8167f7c025d66fcab0dda8945cfd"
+    },
+    {
+      "file": "control-10-multi_column_table.pdf",
+      "sha256": "a7863f1ac824b93043dad6ca36fb71969590830426399b7c2bee68031cdc04b8"
+    },
+    {
+      "file": "control-11-auto_image_text_ja.pdf",
+      "sha256": "d7c6d39e835d5104bf05ecb22c8f0e676639308d0079f1f3d998a9425fc9ca11"
+    },
+    {
+      "file": "control-12-auto_image_text_en.pdf",
+      "sha256": "a6a7fca30e5ac55716de4a2e766722a348a8c20398840254536105afc14f709e"
+    },
+    {
+      "file": "control-13-jpx_minimal.pdf",
+      "sha256": "cdbf00975035ef7c1a470dfe601206c0063a45f259b4062cb7f84f64e3062db2"
+    },
+    {
+      "file": "control-14-auto_image_text_hi.pdf",
+      "sha256": "ed2a4243173d8504aef1d061506649df10e954d893aefba173f8fc7ce274c65d"
+    },
+    {
+      "file": "control-15-auto_image_text_lat.pdf",
+      "sha256": "378275063b3efb0d7a3b335bb56ca3e7dcc99644ef3a761f692d59ebf5db09cc"
+    },
+    {
+      "file": "control-16-1.pdf",
+      "sha256": "8f1506d536b4fa3028aae2de1b4b1407c892c95e950142dfa565c2769cff031b"
+    },
+    {
+      "file": "control-17-1008.3918v2.pdf",
+      "sha256": "971c9d254dba817ec28d8d9b4bff02e38ec0872c038ac5caec254fcce8db252c"
+    },
+    {
+      "file": "control-18-auto_image_text_kn.pdf",
+      "sha256": "8b8ab92f89b8800e20220f72d55529a581a332eee27a9cb3a7c670f18979f504"
+    },
+    {
+      "file": "control-19-auto_image_text_ru.pdf",
+      "sha256": "1963390537f41feba76c8e498e7cae0075b809597a1c044a2f8fd786702fa111"
+    },
+    {
+      "file": "control-20-encrypted_objstm.pdf",
+      "sha256": "82d868d6c49def8a8cd448f353f646e1ccab21cdf6494c4ab892f653279904a2"
+    },
+    {
+      "file": "control-21-issue_395_render_signature_exception.pdf",
+      "sha256": "985ed88480f5231c3dc199eea17fada8aae1539331ba53766c7c692aee5bd586"
+    },
+    {
+      "file": "control-22-encrypted_cid_truetype.pdf",
+      "sha256": "8a13ef9cda7e4a63041e0a524c3a660e96178ac2c02e418c2763d8bd102f3c3c"
+    },
+    {
+      "file": "control-23-hello_structure.pdf",
+      "sha256": "949dccc013e2cc2f44e515225ace59bd5e4aa53ee38db1297094e7640d6e4f2a"
+    },
+    {
+      "file": "control-24-auto_image_text_ta.pdf",
+      "sha256": "0e9f748fa60eec4396857ef4c9ae6b0a14f4db39c887841b96e6c1a88fea5c50"
+    },
+    {
+      "file": "lis-09fd0154937e67f144865b4f0ced11cf0e7f3ad9439fe7cc39154110950a8d94.pdf",
+      "sha256": "09fd0154937e67f144865b4f0ced11cf0e7f3ad9439fe7cc39154110950a8d94"
+    },
+    {
+      "file": "lis-0e3b6da92c412cfb998ea500b72c6a71ec61990c9dccd938f9ff8f6de9613e59.pdf",
+      "sha256": "0e3b6da92c412cfb998ea500b72c6a71ec61990c9dccd938f9ff8f6de9613e59"
+    },
+    {
+      "file": "lis-183f34ed93852fb7e7790bd91e4f7c7da218500b629dd9ac5bd996c23859a2bc.pdf",
+      "sha256": "183f34ed93852fb7e7790bd91e4f7c7da218500b629dd9ac5bd996c23859a2bc"
+    },
+    {
+      "file": "lis-1a0fbb600fb68d72a6f5d9d00c15282b91691c5469838662238822b7fca659fd.pdf",
+      "sha256": "1a0fbb600fb68d72a6f5d9d00c15282b91691c5469838662238822b7fca659fd"
+    },
+    {
+      "file": "lis-24572e01133e8751108bf6178381c65658a6a9a31441404b19b70ee30b04a909.pdf",
+      "sha256": "24572e01133e8751108bf6178381c65658a6a9a31441404b19b70ee30b04a909"
+    },
+    {
+      "file": "lis-35e54215a9c0c07fe1fd977f08a2cf5e5d9c50f87528ede492e9bb688c243a3a.pdf",
+      "sha256": "35e54215a9c0c07fe1fd977f08a2cf5e5d9c50f87528ede492e9bb688c243a3a"
+    },
+    {
+      "file": "lis-36cd8a2d96abd523e928c4922b24261ed62b742a361990e762f9b5e0972b2d97.pdf",
+      "sha256": "36cd8a2d96abd523e928c4922b24261ed62b742a361990e762f9b5e0972b2d97"
+    },
+    {
+      "file": "lis-3b17c79d9c6507bbc398a16e7963a7a7925642a9107f3b4ebba2d2eb95fd4797.pdf",
+      "sha256": "3b17c79d9c6507bbc398a16e7963a7a7925642a9107f3b4ebba2d2eb95fd4797"
+    },
+    {
+      "file": "lis-4d1e11f2afee7fc2b9de2da81ba16543f4fb5ec850224e811c6e9843921977a2.pdf",
+      "sha256": "4d1e11f2afee7fc2b9de2da81ba16543f4fb5ec850224e811c6e9843921977a2"
+    },
+    {
+      "file": "lis-5090bbdc305bbdc9cde7c6497ed1e160c47f81bc7850196f41c2a7caa1d7ee4a.pdf",
+      "sha256": "5090bbdc305bbdc9cde7c6497ed1e160c47f81bc7850196f41c2a7caa1d7ee4a"
+    },
+    {
+      "file": "lis-5a78608ec38942f733fa398e7ee63b43fc15953554332d323d41d8157fabec02.pdf",
+      "sha256": "5a78608ec38942f733fa398e7ee63b43fc15953554332d323d41d8157fabec02"
+    },
+    {
+      "file": "lis-5bddd2cd5d656309b5f80fa9715a111fe51d3820217b24c8daeb3c7b1a7055c1.pdf",
+      "sha256": "5bddd2cd5d656309b5f80fa9715a111fe51d3820217b24c8daeb3c7b1a7055c1"
+    },
+    {
+      "file": "lis-6292575b594888a4dfc1df934af680889a38d01968e464dcf95fb36075a3c835.pdf",
+      "sha256": "6292575b594888a4dfc1df934af680889a38d01968e464dcf95fb36075a3c835"
+    },
+    {
+      "file": "lis-62d82c01199e1a54797515ecd810305f60b0926b26e0efdc114aad8f60e431bc.pdf",
+      "sha256": "62d82c01199e1a54797515ecd810305f60b0926b26e0efdc114aad8f60e431bc"
+    },
+    {
+      "file": "lis-6b9966991ddc8b6eeedb0baf8d195bbc5c1ed6c8280c53f70944da90faae13ec.pdf",
+      "sha256": "6b9966991ddc8b6eeedb0baf8d195bbc5c1ed6c8280c53f70944da90faae13ec"
+    },
+    {
+      "file": "lis-751637bf46867909efd743af369e743f7f9f4d2a5e2cebe4cfbbc3e78fe472be.pdf",
+      "sha256": "751637bf46867909efd743af369e743f7f9f4d2a5e2cebe4cfbbc3e78fe472be"
+    },
+    {
+      "file": "lis-78ae8b8aae2675032c78695acda2755710ad500aaf3f9a7415489e639fd74b42.pdf",
+      "sha256": "78ae8b8aae2675032c78695acda2755710ad500aaf3f9a7415489e639fd74b42"
+    },
+    {
+      "file": "lis-79d861b2ff46a4705f1a282add5dff063dd10a52e8812292818a386da283d425.pdf",
+      "sha256": "79d861b2ff46a4705f1a282add5dff063dd10a52e8812292818a386da283d425"
+    },
+    {
+      "file": "lis-84400d3683f7efc66ca0a819f19d8639515b9bf535aeaf4ce9a2933c668afc06.pdf",
+      "sha256": "84400d3683f7efc66ca0a819f19d8639515b9bf535aeaf4ce9a2933c668afc06"
+    },
+    {
+      "file": "lis-87c003f18391ad9cfce2613e78a83e16b78e927e54c62d5def9fe4301317303f.pdf",
+      "sha256": "87c003f18391ad9cfce2613e78a83e16b78e927e54c62d5def9fe4301317303f"
+    },
+    {
+      "file": "lis-8de93bb803e90addf7a95af32d01aed91b62984b5d28d960541a57832718a41f.pdf",
+      "sha256": "8de93bb803e90addf7a95af32d01aed91b62984b5d28d960541a57832718a41f"
+    },
+    {
+      "file": "lis-978b06e6141a32c4c3d7b2af8be67d3ad03d74350049a9e95ddd2157950d66ae.pdf",
+      "sha256": "978b06e6141a32c4c3d7b2af8be67d3ad03d74350049a9e95ddd2157950d66ae"
+    },
+    {
+      "file": "lis-ae3d2323fe196c10e861fc0e5c0b2494a1152999502040b573bbdd030ca6f225.pdf",
+      "sha256": "ae3d2323fe196c10e861fc0e5c0b2494a1152999502040b573bbdd030ca6f225"
+    },
+    {
+      "file": "lis-bc6153ea9ca8e91721f507efb23f0dd255aab54566e3935e7a9f268bf697a898.pdf",
+      "sha256": "bc6153ea9ca8e91721f507efb23f0dd255aab54566e3935e7a9f268bf697a898"
+    },
+    {
+      "file": "lis-bf30ea4077197c8652f6bb30c10903f69640f40752c3d0a0abc8b612e1e39d7a.pdf",
+      "sha256": "bf30ea4077197c8652f6bb30c10903f69640f40752c3d0a0abc8b612e1e39d7a"
+    },
+    {
+      "file": "lis-d15fd274a1a83f83427b75013fc2294674d12fe3086e9d53e40de51e52921904.pdf",
+      "sha256": "d15fd274a1a83f83427b75013fc2294674d12fe3086e9d53e40de51e52921904"
+    },
+    {
+      "file": "lis-d3d35f125c66949039371f1eebd9f5a1aa368e856d782e9737b79a02136f1a93.pdf",
+      "sha256": "d3d35f125c66949039371f1eebd9f5a1aa368e856d782e9737b79a02136f1a93"
+    },
+    {
+      "file": "lis-d524242aa66240984c77d5389d0a8773be1dff1ed30145a964658ee6540256a6.pdf",
+      "sha256": "d524242aa66240984c77d5389d0a8773be1dff1ed30145a964658ee6540256a6"
+    },
+    {
+      "file": "lis-d9645f864451a7cded5fcf9bfa2647ae4cb52c48af44d79acc1a94cb472d91d2.pdf",
+      "sha256": "d9645f864451a7cded5fcf9bfa2647ae4cb52c48af44d79acc1a94cb472d91d2"
+    },
+    {
+      "file": "lis-db9f15f1c2ed46ff29966b45c7a8a0f261d0af33660d30a9a905bf5992870e24.pdf",
+      "sha256": "db9f15f1c2ed46ff29966b45c7a8a0f261d0af33660d30a9a905bf5992870e24"
+    },
+    {
+      "file": "lis-e7169e351974235cc9df09bb0cd9d0983bd645af009815e6b6d87c2191d0aa9c.pdf",
+      "sha256": "e7169e351974235cc9df09bb0cd9d0983bd645af009815e6b6d87c2191d0aa9c"
+    },
+    {
+      "file": "lis-e8a5ccfcac75b5c0ed3dfc664507f35457cc17f6667bef7694c452bb2b8f892f.pdf",
+      "sha256": "e8a5ccfcac75b5c0ed3dfc664507f35457cc17f6667bef7694c452bb2b8f892f"
+    },
+    {
+      "file": "lis-ee5f3033d208bfafcb4dc5f7a7bcde50a65ea920345d784792e378c246d2332b.pdf",
+      "sha256": "ee5f3033d208bfafcb4dc5f7a7bcde50a65ea920345d784792e378c246d2332b"
+    },
+    {
+      "file": "lis-f274a09aa57d72e0aa4e2c07ed8f8a7468362434655d84f8c772a65b4e833574.pdf",
+      "sha256": "f274a09aa57d72e0aa4e2c07ed8f8a7468362434655d84f8c772a65b4e833574"
+    },
+    {
+      "file": "lis-f5263bc2b5e2713f5070adb2c91ee058ed568cf3afabddbf50ff04a773869eee.pdf",
+      "sha256": "f5263bc2b5e2713f5070adb2c91ee058ed568cf3afabddbf50ff04a773869eee"
+    },
+    {
+      "file": "lis-f88214e634e501e987aab9463841c4c02bf7737b0beae92e71ecbc2b95488a79.pdf",
+      "sha256": "f88214e634e501e987aab9463841c4c02bf7737b0beae92e71ecbc2b95488a79"
+    },
+    {
+      "file": "lis-fb7e4c36fc567eab6dd495a0b177ebc6ad713f903b9e8cf2e7d6f1a012328455.pdf",
+      "sha256": "fb7e4c36fc567eab6dd495a0b177ebc6ad713f903b9e8cf2e7d6f1a012328455"
+    },
+    {
+      "file": "lis-fe359ea2ea364bbc201d680b7bea54aacdb8cf848075787def5e4771ed40d55e.pdf",
+      "sha256": "fe359ea2ea364bbc201d680b7bea54aacdb8cf848075787def5e4771ed40d55e"
+    },
+    {
+      "file": "lis-fe686f657e1ffd4b6415ebd6218691d9da219e493276ddbad9801b4b29237d3f.pdf",
+      "sha256": "fe686f657e1ffd4b6415ebd6218691d9da219e493276ddbad9801b4b29237d3f"
+    },
+    {
+      "file": "lis-ff4e3da64cdd55838b259b59a565bebc7db06ccb96b5de40feae8894d3c93691.pdf",
+      "sha256": "ff4e3da64cdd55838b259b59a565bebc7db06ccb96b5de40feae8894d3c93691"
+    },
+    {
+      "file": "msbis-04bb2fc2ffd421d1496f5881b9df6bd7c11d435d80809977ec4bd3810c2bb126.pdf",
+      "sha256": "04bb2fc2ffd421d1496f5881b9df6bd7c11d435d80809977ec4bd3810c2bb126"
+    },
+    {
+      "file": "msbis-0aafcf25951124d7425e446c8b02876e9187ca48a7336ac212b706ed0258349f.pdf",
+      "sha256": "0aafcf25951124d7425e446c8b02876e9187ca48a7336ac212b706ed0258349f"
+    },
+    {
+      "file": "msbis-0b6811edeb324ca914853fbd41079fae0307d37fd38ce1d23db22f2447497954.pdf",
+      "sha256": "0b6811edeb324ca914853fbd41079fae0307d37fd38ce1d23db22f2447497954"
+    },
+    {
+      "file": "msbis-0f50a32ac1c0df20da5b2b0ec2e76b606125722bc545110be65de8480042905f.pdf",
+      "sha256": "0f50a32ac1c0df20da5b2b0ec2e76b606125722bc545110be65de8480042905f"
+    },
+    {
+      "file": "msbis-12ea93573c449ed3c3f69d74a32dc7b42f8e7093bbf8f81daff03dfce2cf41e3.pdf",
+      "sha256": "12ea93573c449ed3c3f69d74a32dc7b42f8e7093bbf8f81daff03dfce2cf41e3"
+    },
+    {
+      "file": "msbis-1c56ad4c4b4393233ffc40dee56dc66bcd2bcd488c49a58803d71e3ba770de94.pdf",
+      "sha256": "1c56ad4c4b4393233ffc40dee56dc66bcd2bcd488c49a58803d71e3ba770de94"
+    },
+    {
+      "file": "msbis-1e565661ae5944629785af325fe057d2de5222f2d4a9ba9d8dab17890e0bbe55.pdf",
+      "sha256": "1e565661ae5944629785af325fe057d2de5222f2d4a9ba9d8dab17890e0bbe55"
+    },
+    {
+      "file": "msbis-202328b50e6f2698bb47a2062894a0bbfb2105b82e6b312b83a36c7c21a084df.pdf",
+      "sha256": "202328b50e6f2698bb47a2062894a0bbfb2105b82e6b312b83a36c7c21a084df"
+    },
+    {
+      "file": "msbis-23dcf0350b210e4091582bc6c5a7e486b87a27218d68ecb69cbd1edfc11b3316.pdf",
+      "sha256": "23dcf0350b210e4091582bc6c5a7e486b87a27218d68ecb69cbd1edfc11b3316"
+    },
+    {
+      "file": "msbis-2534cc48b95d4964a78e66facbe39c606ff496244f691129d220467e1b99221e.pdf",
+      "sha256": "2534cc48b95d4964a78e66facbe39c606ff496244f691129d220467e1b99221e"
+    },
+    {
+      "file": "msbis-2ba8cf62d277206068b6743737e4d560a7ae731023a06dd94c2553ea3bdf5cfc.pdf",
+      "sha256": "2ba8cf62d277206068b6743737e4d560a7ae731023a06dd94c2553ea3bdf5cfc"
+    },
+    {
+      "file": "msbis-31434fac280174726bf59a52d7c315f11f4a75112b740b358888765c8bef0db6.pdf",
+      "sha256": "31434fac280174726bf59a52d7c315f11f4a75112b740b358888765c8bef0db6"
+    },
+    {
+      "file": "msbis-3179c2ef63bc7a996e86f0f4b922adb7ebba0fffabe4d2d560603bee539118df.pdf",
+      "sha256": "3179c2ef63bc7a996e86f0f4b922adb7ebba0fffabe4d2d560603bee539118df"
+    },
+    {
+      "file": "msbis-397c9a5ad38528d508440fc117d70f66954ef85f4733abff8d026fedcdb3db00.pdf",
+      "sha256": "397c9a5ad38528d508440fc117d70f66954ef85f4733abff8d026fedcdb3db00"
+    },
+    {
+      "file": "msbis-3a9ecba5215e2b22498390b7df6e73f6826c93067b9603a711551ddfc26117e9.pdf",
+      "sha256": "3a9ecba5215e2b22498390b7df6e73f6826c93067b9603a711551ddfc26117e9"
+    },
+    {
+      "file": "msbis-4209d3693bd315fee89cd50c18a49063cb809d0a1dabce46cfbad7d811c94d01.pdf",
+      "sha256": "4209d3693bd315fee89cd50c18a49063cb809d0a1dabce46cfbad7d811c94d01"
+    },
+    {
+      "file": "msbis-47f22a2513f20e50b2efcff14bed0f1520bf2f23212f8e676458ba0642ab752e.pdf",
+      "sha256": "47f22a2513f20e50b2efcff14bed0f1520bf2f23212f8e676458ba0642ab752e"
+    },
+    {
+      "file": "msbis-48f8494ca01d0c048777dba4d085cfc0e6664ff82e026324be90437d81ec4404.pdf",
+      "sha256": "48f8494ca01d0c048777dba4d085cfc0e6664ff82e026324be90437d81ec4404"
+    },
+    {
+      "file": "msbis-49d090b9b88669bbf4a49097f4b278d9f78cb930e57339268cf81560c2616ee8.pdf",
+      "sha256": "49d090b9b88669bbf4a49097f4b278d9f78cb930e57339268cf81560c2616ee8"
+    },
+    {
+      "file": "msbis-4d8b7644524c3da6ca21bd07fc917c5735c3fd53d0037951354ff0034b454fa8.pdf",
+      "sha256": "4d8b7644524c3da6ca21bd07fc917c5735c3fd53d0037951354ff0034b454fa8"
+    },
+    {
+      "file": "msbis-507165b0d1fe597a2fa559cba7387b2500eb5aa5e0df2c56fa255a4d51ad8620.pdf",
+      "sha256": "507165b0d1fe597a2fa559cba7387b2500eb5aa5e0df2c56fa255a4d51ad8620"
+    },
+    {
+      "file": "msbis-53243969adbafc0ba2453b7fda1fdaa2eb95f01ece2b83eeff781029fc7288ef.pdf",
+      "sha256": "53243969adbafc0ba2453b7fda1fdaa2eb95f01ece2b83eeff781029fc7288ef"
+    },
+    {
+      "file": "msbis-585cb15e90fcd7c0d2e250bacb4680dec4b8a9802688cd46537a8083a1c5d31e.pdf",
+      "sha256": "585cb15e90fcd7c0d2e250bacb4680dec4b8a9802688cd46537a8083a1c5d31e"
+    },
+    {
+      "file": "msbis-5a8c22d9e1c81e0ed883d4c9a69c92d4ed7c6bf0abac7b4afed38e546361547c.pdf",
+      "sha256": "5a8c22d9e1c81e0ed883d4c9a69c92d4ed7c6bf0abac7b4afed38e546361547c"
+    },
+    {
+      "file": "msbis-63fa82ebe569fac6fc3d71a482f337bf5172cb2e70849c18ac9b629c9678935b.pdf",
+      "sha256": "63fa82ebe569fac6fc3d71a482f337bf5172cb2e70849c18ac9b629c9678935b"
+    },
+    {
+      "file": "msbis-65cd127b531a084d163ebec955e82ac7de1cc3f3423c5c185d028a342a71af45.pdf",
+      "sha256": "65cd127b531a084d163ebec955e82ac7de1cc3f3423c5c185d028a342a71af45"
+    },
+    {
+      "file": "msbis-68870ae23453447e92a78d6581369f0d6b3cce2503fca826f28978fbadf81022.pdf",
+      "sha256": "68870ae23453447e92a78d6581369f0d6b3cce2503fca826f28978fbadf81022"
+    },
+    {
+      "file": "msbis-69f8c024274663dba5a87b51166b4094023020711f4e45755851ff87319bca6e.pdf",
+      "sha256": "69f8c024274663dba5a87b51166b4094023020711f4e45755851ff87319bca6e"
+    },
+    {
+      "file": "msbis-7783ff70c75dc51e60066ace34b4efb343794657633a93ec13e3c934d4d8c3fb.pdf",
+      "sha256": "7783ff70c75dc51e60066ace34b4efb343794657633a93ec13e3c934d4d8c3fb"
+    },
+    {
+      "file": "msbis-78a27ef0a622fa0baa90d8b71688c6d07789eedf04b23abd4a9b3faaea16abbc.pdf",
+      "sha256": "78a27ef0a622fa0baa90d8b71688c6d07789eedf04b23abd4a9b3faaea16abbc"
+    },
+    {
+      "file": "msbis-7d7e5d6ebd012ac8f41f24dcd3e1ceb942900a838e295554b6019610f30ceb0b.pdf",
+      "sha256": "7d7e5d6ebd012ac8f41f24dcd3e1ceb942900a838e295554b6019610f30ceb0b"
+    },
+    {
+      "file": "msbis-7ee360360db996e4600900c2c84ba4116a040f76a7cc513f4dce42ed40ac1360.pdf",
+      "sha256": "7ee360360db996e4600900c2c84ba4116a040f76a7cc513f4dce42ed40ac1360"
+    },
+    {
+      "file": "msbis-80c793a3793e3df405a3e50a403a3f59b4c2356aa30ff0deb30146a302879ad9.pdf",
+      "sha256": "80c793a3793e3df405a3e50a403a3f59b4c2356aa30ff0deb30146a302879ad9"
+    },
+    {
+      "file": "msbis-8f89ba61084665b070c47757e17423de3108961a40941cb8619a2d27ad58395e.pdf",
+      "sha256": "8f89ba61084665b070c47757e17423de3108961a40941cb8619a2d27ad58395e"
+    },
+    {
+      "file": "msbis-9051f660b62802c297db17f08bfadad51ad6800bb4b65f8f036d2496aca63bb4.pdf",
+      "sha256": "9051f660b62802c297db17f08bfadad51ad6800bb4b65f8f036d2496aca63bb4"
+    },
+    {
+      "file": "msbis-9665775875d8b352411594f64488d3a2d36d0999f9e2a200135207fdaa6753fc.pdf",
+      "sha256": "9665775875d8b352411594f64488d3a2d36d0999f9e2a200135207fdaa6753fc"
+    },
+    {
+      "file": "msbis-9677b184e0dd7280d7c0dbdc020d32840ffad3759f3f10859dea68c8a7a48fb4.pdf",
+      "sha256": "9677b184e0dd7280d7c0dbdc020d32840ffad3759f3f10859dea68c8a7a48fb4"
+    },
+    {
+      "file": "msbis-967a724aadd2535ccd38bb70f63177117ae5038c23528bb81172fff18664671a.pdf",
+      "sha256": "967a724aadd2535ccd38bb70f63177117ae5038c23528bb81172fff18664671a"
+    },
+    {
+      "file": "msbis-98c84f38632933c3003933826f6e4d67d1e13e7c589712baa161f1a3db8475eb.pdf",
+      "sha256": "98c84f38632933c3003933826f6e4d67d1e13e7c589712baa161f1a3db8475eb"
+    },
+    {
+      "file": "msbis-9e698659693225c6f3e3322fa1bf5563de7d634cbc8653aafe97f002fc24ecda.pdf",
+      "sha256": "9e698659693225c6f3e3322fa1bf5563de7d634cbc8653aafe97f002fc24ecda"
+    },
+    {
+      "file": "msbis-9ea527dfb0627cb0806ceb7cdfbe70c07ff74f92f90a711a28922e9d4e7d4619.pdf",
+      "sha256": "9ea527dfb0627cb0806ceb7cdfbe70c07ff74f92f90a711a28922e9d4e7d4619"
+    },
+    {
+      "file": "msbis-a2027b97f905a81f045b23aef1350d8a63973c52f6a7682b704b48200a513891.pdf",
+      "sha256": "a2027b97f905a81f045b23aef1350d8a63973c52f6a7682b704b48200a513891"
+    },
+    {
+      "file": "msbis-a29b98710a2ab4c66e7baabc397e36922aa73a90b1b2d82581c37d72a33040e0.pdf",
+      "sha256": "a29b98710a2ab4c66e7baabc397e36922aa73a90b1b2d82581c37d72a33040e0"
+    },
+    {
+      "file": "msbis-a636b4535a9c49a40025b3534f108e5b203f2847c0b3f1da27cbc8d19b5c48e4.pdf",
+      "sha256": "a636b4535a9c49a40025b3534f108e5b203f2847c0b3f1da27cbc8d19b5c48e4"
+    },
+    {
+      "file": "msbis-bacf428378b4bd616da22146a08b88ecca0433b0f5d330fe97e7848821023308.pdf",
+      "sha256": "bacf428378b4bd616da22146a08b88ecca0433b0f5d330fe97e7848821023308"
+    },
+    {
+      "file": "msbis-bd9c0706b1f056feb86a80317fc0b3b893e3a81a7aac6cbfb0c84bce33c4470b.pdf",
+      "sha256": "bd9c0706b1f056feb86a80317fc0b3b893e3a81a7aac6cbfb0c84bce33c4470b"
+    },
+    {
+      "file": "msbis-be63418e0683f46cedc7b9a27c704248d47139cec50bc14629c377cf431ba1c2.pdf",
+      "sha256": "be63418e0683f46cedc7b9a27c704248d47139cec50bc14629c377cf431ba1c2"
+    },
+    {
+      "file": "msbis-c9acf87a348b0875a0e4f2b68903dc2b3f42a295506dec9ac856a92a2d2aeb8b.pdf",
+      "sha256": "c9acf87a348b0875a0e4f2b68903dc2b3f42a295506dec9ac856a92a2d2aeb8b"
+    },
+    {
+      "file": "msbis-d00cbe65750c3b73c092f93faf04c37027fcc1846f76a2ccda298aaac19c8836.pdf",
+      "sha256": "d00cbe65750c3b73c092f93faf04c37027fcc1846f76a2ccda298aaac19c8836"
+    },
+    {
+      "file": "msbis-d4f9cfa34176ee773a132fa8be3c4be73b54aefe8ef950f0d2cb57b8ccd5d4cd.pdf",
+      "sha256": "d4f9cfa34176ee773a132fa8be3c4be73b54aefe8ef950f0d2cb57b8ccd5d4cd"
+    },
+    {
+      "file": "msbis-d82f530e026994fcc29c886633b29e0a26e467c3e48c1b7e7ef92f69365a3aee.pdf",
+      "sha256": "d82f530e026994fcc29c886633b29e0a26e467c3e48c1b7e7ef92f69365a3aee"
+    },
+    {
+      "file": "msbis-d9e726fc2062552a7f88f34a481897cc02f445a0ad50eeada6ca9a6dc6871d81.pdf",
+      "sha256": "d9e726fc2062552a7f88f34a481897cc02f445a0ad50eeada6ca9a6dc6871d81"
+    },
+    {
+      "file": "msbis-df623e21c86fc7df26658e013f46f9116d356308a5dd45e5082e1ba93785bf29.pdf",
+      "sha256": "df623e21c86fc7df26658e013f46f9116d356308a5dd45e5082e1ba93785bf29"
+    },
+    {
+      "file": "msbis-df8eefbb3cbbd3f78639ad11545cb8dc7a337dd6c43805d5b18c1cca06f09cfa.pdf",
+      "sha256": "df8eefbb3cbbd3f78639ad11545cb8dc7a337dd6c43805d5b18c1cca06f09cfa"
+    },
+    {
+      "file": "msbis-e4172962d37caff4105c2477910d8d46b0ca325d9436c96f5349c140a1cad6d8.pdf",
+      "sha256": "e4172962d37caff4105c2477910d8d46b0ca325d9436c96f5349c140a1cad6d8"
+    },
+    {
+      "file": "msbis-e4dc4d7c33950ce983fcb4499ee87b1c93bdb2ceb16d2865a88231d08e007138.pdf",
+      "sha256": "e4dc4d7c33950ce983fcb4499ee87b1c93bdb2ceb16d2865a88231d08e007138"
+    },
+    {
+      "file": "msbis-f021a767215aa24cc101c9e0dc31a47992ee35c2a4f3b63e02e3654c07f77ac9.pdf",
+      "sha256": "f021a767215aa24cc101c9e0dc31a47992ee35c2a4f3b63e02e3654c07f77ac9"
+    },
+    {
+      "file": "msbis-f8bac975def4a848691be34943d4d9bb96c5ed5cdd55ee63d69ae3fc34528868.pdf",
+      "sha256": "f8bac975def4a848691be34943d4d9bb96c5ed5cdd55ee63d69ae3fc34528868"
+    },
+    {
+      "file": "msbis-f950c0df7ab570968846276ee3b35fdd1d23a82643f4c9deb7836f2d12cea421.pdf",
+      "sha256": "f950c0df7ab570968846276ee3b35fdd1d23a82643f4c9deb7836f2d12cea421"
+    },
+    {
+      "file": "msbis-fe22db1d51c70e437486e60d049cd979ddf1d9d20b7f97a81c5599e511387280.pdf",
+      "sha256": "fe22db1d51c70e437486e60d049cd979ddf1d9d20b7f97a81c5599e511387280"
+    }
+  ],
+  "engines": {
+    "pdf_oxide": {
+      "version": "0.3.78",
+      "documents": 125,
+      "pages": 2485,
+      "errors": {},
+      "timed_documents": 124,
+      "timed_pages": 2484,
+      "seconds_per_repeat": [
+        5.791280750010628,
+        5.616834459011443,
+        5.673881874972722
+      ],
+      "median_ms_per_page": 2.2841714472514982,
+      "empty_pages": 705,
+      "thai_characters": 2128421,
+      "orphan_marks": 267,
+      "replacement_characters": 0,
+      "synthetic_passed": 1,
+      "synthetic_total": 26,
+      "synthetic": {
+        "raised_vowel_tone": {
+          "expected": "กิ่ติ",
+          "actual": "กติ\n่ิ",
+          "passed": false
+        },
+        "left_shifted": {
+          "expected": "กิ่ติ",
+          "actual": "่ิกติ",
+          "passed": false
+        },
+        "lower_vowel": {
+          "expected": "ศุภ",
+          "actual": "ศภ\nุ",
+          "passed": false
+        },
+        "decomposed_sara_am": {
+          "expected": "น้ํา",
+          "actual": "นา\n้ํ",
+          "passed": false
+        },
+        "inside_body_run": {
+          "expected": "กิ่ต",
+          "actual": "กต\nิ่",
+          "passed": false
+        },
+        "inline_spaces": {
+          "expected": "กิ่ติ ศุภ",
+          "actual": "กิ่ติ ศุภ",
+          "passed": true
+        },
+        "mark_0e31": {
+          "expected": "กัต",
+          "actual": "กต\nั",
+          "passed": false
+        },
+        "mark_0e34": {
+          "expected": "กิต",
+          "actual": "กต\nิ",
+          "passed": false
+        },
+        "mark_0e35": {
+          "expected": "กีต",
+          "actual": "กต\nี",
+          "passed": false
+        },
+        "mark_0e36": {
+          "expected": "กึต",
+          "actual": "กต\nึ",
+          "passed": false
+        },
+        "mark_0e37": {
+          "expected": "กืต",
+          "actual": "กต\nื",
+          "passed": false
+        },
+        "mark_0e38": {
+          "expected": "กุต",
+          "actual": "กต\nุ",
+          "passed": false
+        },
+        "mark_0e39": {
+          "expected": "กูต",
+          "actual": "กต\nู",
+          "passed": false
+        },
+        "mark_0e3a": {
+          "expected": "กฺต",
+          "actual": "กต\nฺ",
+          "passed": false
+        },
+        "mark_0e47": {
+          "expected": "ก็ต",
+          "actual": "กต\n็",
+          "passed": false
+        },
+        "mark_0e48": {
+          "expected": "ก่ต",
+          "actual": "กต\n่",
+          "passed": false
+        },
+        "mark_0e49": {
+          "expected": "ก้ต",
+          "actual": "กต\n้",
+          "passed": false
+        },
+        "mark_0e4a": {
+          "expected": "ก๊ต",
+          "actual": "กต\n๊",
+          "passed": false
+        },
+        "mark_0e4b": {
+          "expected": "ก๋ต",
+          "actual": "กต\n๋",
+          "passed": false
+        },
+        "mark_0e4c": {
+          "expected": "ก์ต",
+          "actual": "กต\n์",
+          "passed": false
+        },
+        "mark_0e4d": {
+          "expected": "กํต",
+          "actual": "กต\nํ",
+          "passed": false
+        },
+        "mark_0e4e": {
+          "expected": "ก๎ต",
+          "actual": "กต\n๎",
+          "passed": false
+        },
+        "negative_side_bearing": {
+          "expected": "กิต",
+          "actual": "กติ",
+          "passed": false
+        },
+        "stacked_name_0": {
+          "expected": "นายกิตติศักดิ์ ชื่นบาน",
+          "actual": "นายกตตศกด ชนบาน ิิัิ์ื่",
+          "passed": false
+        },
+        "stacked_name_1": {
+          "expected": "นางสาวศุภณัฐ พึ่งพร",
+          "actual": "นางสาวศภณฐ พงพร ุัึ่",
+          "passed": false
+        },
+        "stacked_name_2": {
+          "expected": "นายเกรียงศักดิ์ ศรีสุข",
+          "actual": "นายเกรยงศกด ศรสข ีัิ์ีุ",
+          "passed": false
+        }
+      },
+      "pymupdf_name_sequences_matched": 20670,
+      "pymupdf_name_sequences_total": 20670
+    },
+    "py_oxide_thai": {
+      "version": "0.3.78.post1",
+      "documents": 125,
+      "pages": 2485,
+      "errors": {},
+      "timed_documents": 124,
+      "timed_pages": 2484,
+      "seconds_per_repeat": [
+        5.798543416982284,
+        5.792852959013544,
+        5.907505542010767
+      ],
+      "median_ms_per_page": 2.3343572532134798,
+      "empty_pages": 705,
+      "thai_characters": 2128421,
+      "orphan_marks": 263,
+      "replacement_characters": 0,
+      "synthetic_passed": 26,
+      "synthetic_total": 26,
+      "synthetic": {
+        "raised_vowel_tone": {
+          "expected": "กิ่ติ",
+          "actual": "กิ่ติ",
+          "passed": true
+        },
+        "left_shifted": {
+          "expected": "กิ่ติ",
+          "actual": "กิ่ติ",
+          "passed": true
+        },
+        "lower_vowel": {
+          "expected": "ศุภ",
+          "actual": "ศุภ",
+          "passed": true
+        },
+        "decomposed_sara_am": {
+          "expected": "น้ํา",
+          "actual": "น้ํา",
+          "passed": true
+        },
+        "inside_body_run": {
+          "expected": "กิ่ต",
+          "actual": "กิ่ต",
+          "passed": true
+        },
+        "inline_spaces": {
+          "expected": "กิ่ติ ศุภ",
+          "actual": "กิ่ติ ศุภ",
+          "passed": true
+        },
+        "mark_0e31": {
+          "expected": "กัต",
+          "actual": "กัต",
+          "passed": true
+        },
+        "mark_0e34": {
+          "expected": "กิต",
+          "actual": "กิต",
+          "passed": true
+        },
+        "mark_0e35": {
+          "expected": "กีต",
+          "actual": "กีต",
+          "passed": true
+        },
+        "mark_0e36": {
+          "expected": "กึต",
+          "actual": "กึต",
+          "passed": true
+        },
+        "mark_0e37": {
+          "expected": "กืต",
+          "actual": "กืต",
+          "passed": true
+        },
+        "mark_0e38": {
+          "expected": "กุต",
+          "actual": "กุต",
+          "passed": true
+        },
+        "mark_0e39": {
+          "expected": "กูต",
+          "actual": "กูต",
+          "passed": true
+        },
+        "mark_0e3a": {
+          "expected": "กฺต",
+          "actual": "กฺต",
+          "passed": true
+        },
+        "mark_0e47": {
+          "expected": "ก็ต",
+          "actual": "ก็ต",
+          "passed": true
+        },
+        "mark_0e48": {
+          "expected": "ก่ต",
+          "actual": "ก่ต",
+          "passed": true
+        },
+        "mark_0e49": {
+          "expected": "ก้ต",
+          "actual": "ก้ต",
+          "passed": true
+        },
+        "mark_0e4a": {
+          "expected": "ก๊ต",
+          "actual": "ก๊ต",
+          "passed": true
+        },
+        "mark_0e4b": {
+          "expected": "ก๋ต",
+          "actual": "ก๋ต",
+          "passed": true
+        },
+        "mark_0e4c": {
+          "expected": "ก์ต",
+          "actual": "ก์ต",
+          "passed": true
+        },
+        "mark_0e4d": {
+          "expected": "กํต",
+          "actual": "กํต",
+          "passed": true
+        },
+        "mark_0e4e": {
+          "expected": "ก๎ต",
+          "actual": "ก๎ต",
+          "passed": true
+        },
+        "negative_side_bearing": {
+          "expected": "กิต",
+          "actual": "กิต",
+          "passed": true
+        },
+        "stacked_name_0": {
+          "expected": "นายกิตติศักดิ์ ชื่นบาน",
+          "actual": "นายกิตติศักดิ์ ชื่นบาน",
+          "passed": true
+        },
+        "stacked_name_1": {
+          "expected": "นางสาวศุภณัฐ พึ่งพร",
+          "actual": "นางสาวศุภณัฐ พึ่งพร",
+          "passed": true
+        },
+        "stacked_name_2": {
+          "expected": "นายเกรียงศักดิ์ ศรีสุข",
+          "actual": "นายเกรียงศักดิ์ ศรีสุข",
+          "passed": true
+        }
+      },
+      "pymupdf_name_sequences_matched": 20670,
+      "pymupdf_name_sequences_total": 20670
+    },
+    "pymupdf": {
+      "version": "2.0",
+      "documents": 124,
+      "pages": 2484,
+      "errors": {
+        "control-07-encrypted_needs_password.pdf": "ValueError"
+      },
+      "timed_documents": 124,
+      "timed_pages": 2484,
+      "seconds_per_repeat": [
+        3.8898766670026816,
+        3.9237947080109734,
+        3.8701835419924464
+      ],
+      "median_ms_per_page": 1.56597289331831,
+      "empty_pages": 704,
+      "thai_characters": 2129230,
+      "orphan_marks": 4,
+      "replacement_characters": 0,
+      "synthetic_passed": 24,
+      "synthetic_total": 26,
+      "synthetic": {
+        "raised_vowel_tone": {
+          "expected": "กิ่ติ",
+          "actual": "กิ่ติ\n",
+          "passed": true
+        },
+        "left_shifted": {
+          "expected": "กิ่ติ",
+          "actual": "กิ่ติ\n",
+          "passed": true
+        },
+        "lower_vowel": {
+          "expected": "ศุภ",
+          "actual": "ศุภ\n",
+          "passed": true
+        },
+        "decomposed_sara_am": {
+          "expected": "น้ํา",
+          "actual": "น้ํา\n",
+          "passed": true
+        },
+        "inside_body_run": {
+          "expected": "กิ่ต",
+          "actual": "กติ่\n",
+          "passed": false
+        },
+        "inline_spaces": {
+          "expected": "กิ่ติ ศุภ",
+          "actual": "กิ่ติ ศุภ\n",
+          "passed": true
+        },
+        "mark_0e31": {
+          "expected": "กัต",
+          "actual": "กัต\n",
+          "passed": true
+        },
+        "mark_0e34": {
+          "expected": "กิต",
+          "actual": "กิต\n",
+          "passed": true
+        },
+        "mark_0e35": {
+          "expected": "กีต",
+          "actual": "กีต\n",
+          "passed": true
+        },
+        "mark_0e36": {
+          "expected": "กึต",
+          "actual": "กึต\n",
+          "passed": true
+        },
+        "mark_0e37": {
+          "expected": "กืต",
+          "actual": "กืต\n",
+          "passed": true
+        },
+        "mark_0e38": {
+          "expected": "กุต",
+          "actual": "กุต\n",
+          "passed": true
+        },
+        "mark_0e39": {
+          "expected": "กูต",
+          "actual": "กูต\n",
+          "passed": true
+        },
+        "mark_0e3a": {
+          "expected": "กฺต",
+          "actual": "กฺต\n",
+          "passed": true
+        },
+        "mark_0e47": {
+          "expected": "ก็ต",
+          "actual": "ก็ต\n",
+          "passed": true
+        },
+        "mark_0e48": {
+          "expected": "ก่ต",
+          "actual": "ก่ต\n",
+          "passed": true
+        },
+        "mark_0e49": {
+          "expected": "ก้ต",
+          "actual": "ก้ต\n",
+          "passed": true
+        },
+        "mark_0e4a": {
+          "expected": "ก๊ต",
+          "actual": "ก๊ต\n",
+          "passed": true
+        },
+        "mark_0e4b": {
+          "expected": "ก๋ต",
+          "actual": "ก๋ต\n",
+          "passed": true
+        },
+        "mark_0e4c": {
+          "expected": "ก์ต",
+          "actual": "ก์ต\n",
+          "passed": true
+        },
+        "mark_0e4d": {
+          "expected": "กํต",
+          "actual": "กํต\n",
+          "passed": true
+        },
+        "mark_0e4e": {
+          "expected": "ก๎ต",
+          "actual": "ก๎ต\n",
+          "passed": true
+        },
+        "negative_side_bearing": {
+          "expected": "กิต",
+          "actual": "กติ\n",
+          "passed": false
+        },
+        "stacked_name_0": {
+          "expected": "นายกิตติศักดิ์ ชื่นบาน",
+          "actual": "นายกิตติศักดิ์ ชื่นบาน\n",
+          "passed": true
+        },
+        "stacked_name_1": {
+          "expected": "นางสาวศุภณัฐ พึ่งพร",
+          "actual": "นางสาวศุภณัฐ พึ่งพร\n",
+          "passed": true
+        },
+        "stacked_name_2": {
+          "expected": "นายเกรียงศักดิ์ ศรีสุข",
+          "actual": "นายเกรียงศักดิ์ ศรีสุข\n",
+          "passed": true
+        }
+      },
+      "pymupdf_name_sequences_matched": 20670,
+      "pymupdf_name_sequences_total": 20670
+    },
+    "pypdfium2": {
+      "version": "5.14.0",
+      "documents": 124,
+      "pages": 2484,
+      "errors": {
+        "control-07-encrypted_needs_password.pdf": "PdfiumError"
+      },
+      "timed_documents": 124,
+      "timed_pages": 2484,
+      "seconds_per_repeat": [
+        8.29293225001311,
+        8.851830458006589,
+        8.092323958000634
+      ],
+      "median_ms_per_page": 3.3385395531453743,
+      "empty_pages": 704,
+      "thai_characters": 2129172,
+      "orphan_marks": 502,
+      "replacement_characters": 0,
+      "synthetic_passed": 1,
+      "synthetic_total": 26,
+      "synthetic": {
+        "raised_vowel_tone": {
+          "expected": "กิ่ติ",
+          "actual": "กิ\r\n่ ติ",
+          "passed": false
+        },
+        "left_shifted": {
+          "expected": "กิ่ติ",
+          "actual": "่ิกติ",
+          "passed": false
+        },
+        "lower_vowel": {
+          "expected": "ศุภ",
+          "actual": "ศุ ภ",
+          "passed": false
+        },
+        "decomposed_sara_am": {
+          "expected": "น้ํา",
+          "actual": "น้\r\nํ า",
+          "passed": false
+        },
+        "inside_body_run": {
+          "expected": "กิ่ต",
+          "actual": "กติ\r\n่",
+          "passed": false
+        },
+        "inline_spaces": {
+          "expected": "กิ่ติ ศุภ",
+          "actual": "กิ่ติ ศุภ",
+          "passed": true
+        },
+        "mark_0e31": {
+          "expected": "กัต",
+          "actual": "กั ต",
+          "passed": false
+        },
+        "mark_0e34": {
+          "expected": "กิต",
+          "actual": "กิ ต",
+          "passed": false
+        },
+        "mark_0e35": {
+          "expected": "กีต",
+          "actual": "กี ต",
+          "passed": false
+        },
+        "mark_0e36": {
+          "expected": "กึต",
+          "actual": "กึ ต",
+          "passed": false
+        },
+        "mark_0e37": {
+          "expected": "กืต",
+          "actual": "กื ต",
+          "passed": false
+        },
+        "mark_0e38": {
+          "expected": "กุต",
+          "actual": "กุ ต",
+          "passed": false
+        },
+        "mark_0e39": {
+          "expected": "กูต",
+          "actual": "กู ต",
+          "passed": false
+        },
+        "mark_0e3a": {
+          "expected": "กฺต",
+          "actual": "กฺ ต",
+          "passed": false
+        },
+        "mark_0e47": {
+          "expected": "ก็ต",
+          "actual": "ก็ ต",
+          "passed": false
+        },
+        "mark_0e48": {
+          "expected": "ก่ต",
+          "actual": "ก่ ต",
+          "passed": false
+        },
+        "mark_0e49": {
+          "expected": "ก้ต",
+          "actual": "ก้ ต",
+          "passed": false
+        },
+        "mark_0e4a": {
+          "expected": "ก๊ต",
+          "actual": "ก๊ ต",
+          "passed": false
+        },
+        "mark_0e4b": {
+          "expected": "ก๋ต",
+          "actual": "ก๋ ต",
+          "passed": false
+        },
+        "mark_0e4c": {
+          "expected": "ก์ต",
+          "actual": "ก์ ต",
+          "passed": false
+        },
+        "mark_0e4d": {
+          "expected": "กํต",
+          "actual": "กํ ต",
+          "passed": false
+        },
+        "mark_0e4e": {
+          "expected": "ก๎ต",
+          "actual": "ก๎ ต",
+          "passed": false
+        },
+        "negative_side_bearing": {
+          "expected": "กิต",
+          "actual": "กติ",
+          "passed": false
+        },
+        "stacked_name_0": {
+          "expected": "นายกิตติศักดิ์ ชื่นบาน",
+          "actual": "นายกิ ตติ ศั กดิ์ ชื่ นบาน",
+          "passed": false
+        },
+        "stacked_name_1": {
+          "expected": "นางสาวศุภณัฐ พึ่งพร",
+          "actual": "นางสาวศุ ภณั ฐ พึ่ งพร",
+          "passed": false
+        },
+        "stacked_name_2": {
+          "expected": "นายเกรียงศักดิ์ ศรีสุข",
+          "actual": "นายเกรี ยงศั กดิ์ ศรี สุ ข",
+          "passed": false
+        }
+      },
+      "pymupdf_name_sequences_matched": 20670,
+      "pymupdf_name_sequences_total": 20670
+    }
+  },
+  "fork_vs_upstream": {
+    "compared_pages": 2485,
+    "changed_pages": [
+      {
+        "file": "lis-183f34ed93852fb7e7790bd91e4f7c7da218500b629dd9ac5bd996c23859a2bc.pdf",
+        "page": 0,
+        "word_jaccard": 0.8846153846153846,
+        "orphan_marks_before": 1,
+        "orphan_marks_after": 0
+      },
+      {
+        "file": "lis-183f34ed93852fb7e7790bd91e4f7c7da218500b629dd9ac5bd996c23859a2bc.pdf",
+        "page": 1,
+        "word_jaccard": 0.9183673469387755,
+        "orphan_marks_before": 0,
+        "orphan_marks_after": 0
+      },
+      {
+        "file": "lis-183f34ed93852fb7e7790bd91e4f7c7da218500b629dd9ac5bd996c23859a2bc.pdf",
+        "page": 2,
+        "word_jaccard": 0.7586206896551724,
+        "orphan_marks_before": 1,
+        "orphan_marks_after": 0
+      },
+      {
+        "file": "lis-183f34ed93852fb7e7790bd91e4f7c7da218500b629dd9ac5bd996c23859a2bc.pdf",
+        "page": 3,
+        "word_jaccard": 0.8813559322033898,
+        "orphan_marks_before": 0,
+        "orphan_marks_after": 0
+      },
+      {
+        "file": "lis-24572e01133e8751108bf6178381c65658a6a9a31441404b19b70ee30b04a909.pdf",
+        "page": 423,
+        "word_jaccard": 0.9710144927536232,
+        "orphan_marks_before": 0,
+        "orphan_marks_after": 0
+      },
+      {
+        "file": "lis-24572e01133e8751108bf6178381c65658a6a9a31441404b19b70ee30b04a909.pdf",
+        "page": 454,
+        "word_jaccard": 0.9759036144578314,
+        "orphan_marks_before": 0,
+        "orphan_marks_after": 0
+      },
+      {
+        "file": "lis-24572e01133e8751108bf6178381c65658a6a9a31441404b19b70ee30b04a909.pdf",
+        "page": 459,
+        "word_jaccard": 0.9777777777777777,
+        "orphan_marks_before": 0,
+        "orphan_marks_after": 0
+      },
+      {
+        "file": "lis-24572e01133e8751108bf6178381c65658a6a9a31441404b19b70ee30b04a909.pdf",
+        "page": 479,
+        "word_jaccard": 0.9893617021276596,
+        "orphan_marks_before": 0,
+        "orphan_marks_after": 0
+      },
+      {
+        "file": "lis-24572e01133e8751108bf6178381c65658a6a9a31441404b19b70ee30b04a909.pdf",
+        "page": 527,
+        "word_jaccard": 0.9789473684210527,
+        "orphan_marks_before": 0,
+        "orphan_marks_after": 0
+      },
+      {
+        "file": "lis-978b06e6141a32c4c3d7b2af8be67d3ad03d74350049a9e95ddd2157950d66ae.pdf",
+        "page": 1,
+        "word_jaccard": 0.9789473684210527,
+        "orphan_marks_before": 0,
+        "orphan_marks_after": 0
+      },
+      {
+        "file": "lis-978b06e6141a32c4c3d7b2af8be67d3ad03d74350049a9e95ddd2157950d66ae.pdf",
+        "page": 2,
+        "word_jaccard": 0.9827586206896551,
+        "orphan_marks_before": 2,
+        "orphan_marks_after": 2
+      },
+      {
+        "file": "lis-978b06e6141a32c4c3d7b2af8be67d3ad03d74350049a9e95ddd2157950d66ae.pdf",
+        "page": 3,
+        "word_jaccard": 0.9148936170212766,
+        "orphan_marks_before": 2,
+        "orphan_marks_after": 1
+      },
+      {
+        "file": "lis-978b06e6141a32c4c3d7b2af8be67d3ad03d74350049a9e95ddd2157950d66ae.pdf",
+        "page": 4,
+        "word_jaccard": 0.9753086419753086,
+        "orphan_marks_before": 0,
+        "orphan_marks_after": 0
+      },
+      {
+        "file": "lis-978b06e6141a32c4c3d7b2af8be67d3ad03d74350049a9e95ddd2157950d66ae.pdf",
+        "page": 5,
+        "word_jaccard": 0.9578947368421052,
+        "orphan_marks_before": 0,
+        "orphan_marks_after": 0
+      },
+      {
+        "file": "lis-978b06e6141a32c4c3d7b2af8be67d3ad03d74350049a9e95ddd2157950d66ae.pdf",
+        "page": 6,
+        "word_jaccard": 0.9775280898876404,
+        "orphan_marks_before": 0,
+        "orphan_marks_after": 0
+      },
+      {
+        "file": "lis-978b06e6141a32c4c3d7b2af8be67d3ad03d74350049a9e95ddd2157950d66ae.pdf",
+        "page": 9,
+        "word_jaccard": 0.9333333333333333,
+        "orphan_marks_before": 0,
+        "orphan_marks_after": 0
+      },
+      {
+        "file": "lis-978b06e6141a32c4c3d7b2af8be67d3ad03d74350049a9e95ddd2157950d66ae.pdf",
+        "page": 10,
+        "word_jaccard": 0.98,
+        "orphan_marks_before": 0,
+        "orphan_marks_after": 0
+      },
+      {
+        "file": "lis-978b06e6141a32c4c3d7b2af8be67d3ad03d74350049a9e95ddd2157950d66ae.pdf",
+        "page": 11,
+        "word_jaccard": 0.9753086419753086,
+        "orphan_marks_before": 0,
+        "orphan_marks_after": 0
+      },
+      {
+        "file": "lis-bf30ea4077197c8652f6bb30c10903f69640f40752c3d0a0abc8b612e1e39d7a.pdf",
+        "page": 10,
+        "word_jaccard": 0.9659090909090909,
+        "orphan_marks_before": 5,
+        "orphan_marks_after": 4
+      }
+    ],
+    "minimum_word_jaccard": 0.7586206896551724,
+    "new_document_errors": []
+  }
+}

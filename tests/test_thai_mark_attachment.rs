@@ -60,6 +60,16 @@ fn thai_pdf_with_font(runs: &[(&str, f32, f32)], font: Option<&[u8]>) -> Vec<u8>
             hex.len() + 1,
             font.len()
         ));
+        let mut cid_map = vec![0u8; (0x0E34 + 1) * 2];
+        for (cid, gid) in [(0x0E01, 1u16), (0x0E15, 2), (0x0E34, 3)] {
+            cid_map[cid * 2..cid * 2 + 2].copy_from_slice(&gid.to_be_bytes());
+        }
+        let hex: String = cid_map.iter().map(|b| format!("{b:02X}")).collect();
+        objects[4] = objects[4].replace("/CIDToGIDMap /Identity", "/CIDToGIDMap 10 0 R");
+        objects.push(format!(
+            "<< /Length {} /Filter /ASCIIHexDecode >>\nstream\n{hex}>\nendstream",
+            hex.len() + 1
+        ));
     }
     let mut pdf = b"%PDF-1.7\n".to_vec();
     let mut offsets = Vec::new();
